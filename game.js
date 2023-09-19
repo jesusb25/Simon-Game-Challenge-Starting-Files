@@ -18,6 +18,7 @@ function nextSequence() {
 function startOver() {
   level = 0;
   gamePattern = [];
+  userClickedPattern = [];
 }
 
 function wrongAnswer() {
@@ -36,6 +37,7 @@ function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] !== userClickedPattern[currentLevel]) {
       wrongAnswer();
       startOver();
+      return
     }
   if (userClickedPattern.length === gamePattern.length) {
     setTimeout( () => {
