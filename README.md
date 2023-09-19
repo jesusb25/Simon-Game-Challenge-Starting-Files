@@ -1,7 +1,7 @@
 # Simon Game
 ## [CHECK IT OUT HERE!](https://jesusb25.github.io/Simon-Game/)
 
-Play the Simon game online, 
+Play the Simon game online.
 
 ## Demo
 
