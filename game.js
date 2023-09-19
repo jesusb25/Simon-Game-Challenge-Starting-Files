@@ -56,7 +56,6 @@ buttons = document.querySelectorAll(".btn");
 // add event listener to each button
 buttons.forEach( (button) => {
   button.addEventListener("click", (event) => {
-    console.log(event)
     let userChosenColor = event.target.id;
     playSound(userChosenColor);
     buttonPress(event.target.id);
